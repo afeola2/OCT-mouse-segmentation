@@ -12,7 +12,6 @@ from tkinter import filedialog, messagebox
 from utils import *
 from plot_utils import *
 from customloader import SegmentationDataset, InferenceDataset
-from train_utils2 import *
 import os
 import sys
 
