@@ -1,0 +1,25 @@
+name: mouse_segmentation
+channels:
+  - conda
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - pandas
+  - pillow
+  - matplotlib
+  - seaborn
+  - tifffile
+  - opencv
+  - openpyxl
+  - tqdm
+  - transformers
+  - requests
+  - pyyaml
+  - scikit-image  # Useful for image processing
+  - pip:
+      - torch  # Install torch via pip
+      - torchvision
+      - huggingface-hub
+      - safetensors
